@@ -1,6 +1,5 @@
 import "bootstrap";
 import "./style.css";
-
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
@@ -9,21 +8,19 @@ let pronoun = ["the", "sis"];
 let adj = ["great", "big"];
 let noun = ["jogger", "racoon"];
 
+//Creacion de la función se ejecuta cuando la página web ha terminado de cargarse.
 window.onload = function() {
   const list = document.getElementById("list");
-  // list.innerHTML = "Soy perra"; // Limpiar la lista antes de agregar los elementos
-
-  // Generar los dominios en el orden específico
   let domains = [];
-
+  //Creacion de los for anidados.
   for (let i = 0; i < pronoun.length; i++) {
     for (let a = 0; a < adj.length; a++) {
       for (let b = 0; b < noun.length; b++) {
         let domain = pronoun[i] + adj[a] + noun[b] + ".com";
-        domains.push(domain); // Almacenar el dominio en el array
+        domains.push(domain);
+        }
       }
     }
-  }
 
   // Imprimir los dominios en el orden especificado
   for (let i = 0; i < domains.length; i++) {
