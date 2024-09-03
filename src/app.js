@@ -5,7 +5,7 @@ import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
 // Define los arrays pronoun, adj y noun
-let pronoun = ["the", "our"];
+let pronoun = ["the", "sis"];
 let adj = ["great", "big"];
 let noun = ["jogger", "racoon"];
 
