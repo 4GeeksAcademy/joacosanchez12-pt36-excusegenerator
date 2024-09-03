@@ -8,11 +8,11 @@ let pronoun = ["the", "sis"];
 let adj = ["great", "big"];
 let noun = ["jogger", "racoon"];
 
-//Creacion de la función se ejecuta cuando la página web ha terminado de cargarse.
+// Creacion de la función se ejecuta cuando la página web ha terminado de cargarse-Andres-Arreaza.
 window.onload = function() {
   const list = document.getElementById("list");
   let domains = [];
-  //Creacion de los for anidados para recorrer los arrays.
+  // Creacion de los for anidados para recorrer los arrays-Andres-Arreaza.
   for (let i = 0; i < pronoun.length; i++) {
     for (let a = 0; a < adj.length; a++) {
       for (let b = 0; b < noun.length; b++) {
